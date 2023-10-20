@@ -6,6 +6,14 @@ namespace your\namespace;
 
 use pocketmine\utils\TextFormat;
 
+use function array_map;
+
+use function explode;
+use function implode;
+use function max;
+use function strlen;
+use function str_repeat;
+
 final class AlightString {
 
     /**
